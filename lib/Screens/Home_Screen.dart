@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text(
           'HOMEPAGE',
-          style: TextStyle(),
+          style: TextStyle(letterSpacing: ),
         ),
         backgroundColor: Colors.deepPurple,
       ),
