@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         centerTitle: true,
         backgroundColor: Colors.deepPurple,
-      ),
+      ),body: runtimeType,
     );
   }
 }
