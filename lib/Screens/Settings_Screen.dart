@@ -15,7 +15,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'HOMEPAGE',
+          'SETTINGS',
           style: TextStyle(
             letterSpacing: 2,
           ),
