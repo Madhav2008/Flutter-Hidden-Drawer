@@ -17,7 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(
             letterSpacing: 2,
           ),
-        ),centerTitle: true,
+        ),
+        centerTitle: true,
         backgroundColor: Colors.deepPurple,
       ),
     );
