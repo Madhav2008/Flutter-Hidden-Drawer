@@ -13,7 +13,7 @@ class HiddenDrawer extends StatefulWidget {
 }
 
 class _HiddenDrawerState extends State<HiddenDrawer> {
-  List<ScreenHiddenDrawer> _screens = [];
+  List<ScreenHiddenDrawer> _screens = [];final
 
   @override
   void initState() {
