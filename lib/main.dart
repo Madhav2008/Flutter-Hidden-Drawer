@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hidden_drawer/Screens/Home_Screen.dart';
+import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
 
 void main() {
   runApp(
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const HiddenDrawerMenu(),
     );
   }
 }
