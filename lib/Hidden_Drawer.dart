@@ -30,9 +30,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
         ItemHiddenMenu(
           name: 'HOMESCREEN',
           baseStyle: myTextStyle,
-          selectedStyle: const TextStyle(
-            letterSpacing: 2,
-          ),
+          selectedStyle: myTextStyle,
         ),
         const HomeScreen(),
       ),
