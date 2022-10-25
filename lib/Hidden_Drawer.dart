@@ -13,6 +13,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return HiddenDrawerMenu(screens: screens, backgroundColorMenu: backgroundColorMenu);
+    return HiddenDrawerMenu(screens: [], backgroundColorMenu: backgroundColorMenu);
   }
 }
