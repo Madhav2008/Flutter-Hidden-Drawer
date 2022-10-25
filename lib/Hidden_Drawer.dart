@@ -52,7 +52,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       backgroundColorAppBar: Colors.deepPurple,
       screens: _screens,
       isTitleCentered: true,
-      initPositionSelected: 0,slidePercent: ,
+      initPositionSelected: 0,slidePercent: 60,
     );
   }
 }
