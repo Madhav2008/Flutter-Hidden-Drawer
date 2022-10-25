@@ -10,7 +10,7 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {List
+class _HomeScreenState extends State<HomeScreen> {List ScreenHiddenDrawer
   @override
   Widget build(BuildContext context) {
     return HiddenDrawerMenu(
