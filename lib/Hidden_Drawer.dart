@@ -55,7 +55,8 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       screens: _screens,
       isTitleCentered: true,
       initPositionSelected: 0,
-      slidePercent: 60,styleAutoTittleName: TextStyle(),
+      slidePercent: 60,
+      styleAutoTittleName: TextStyle(),
     );
   }
 }
