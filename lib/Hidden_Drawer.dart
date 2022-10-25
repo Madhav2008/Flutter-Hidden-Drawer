@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return HiddenDrawerMenu(
       backgroundColorMenu: Colors.deepPurple,
       screens: _screens,
-      initPositionSelected: ,
+      initPositionSelected: 0,
     );
   }
 }
