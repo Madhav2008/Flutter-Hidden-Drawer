@@ -30,7 +30,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
         ItemHiddenMenu(
           name: 'Home',
           baseStyle: myTextStyle,
-          selectedStyle: myTextStyle,colorLineSelected: Colors.deepPurple
+          selectedStyle: myTextStyle,colorLineSelected: Colors.deepPurple,
         ),
         const HomeScreen(),
       ),
