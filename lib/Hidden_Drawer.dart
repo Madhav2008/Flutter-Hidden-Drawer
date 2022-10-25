@@ -14,7 +14,7 @@ class HiddenDrawer extends StatefulWidget {
 
 class _HiddenDrawerState extends State<HiddenDrawer> {
   List<ScreenHiddenDrawer> _screens = [];
-  
+
   final myTextStyle = const TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 18,
@@ -28,7 +28,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
     _screens = [
       ScreenHiddenDrawer(
         ItemHiddenMenu(
-          name: 'HOMESCREEN',
+          name: 'Home',
           baseStyle: myTextStyle,
           selectedStyle: myTextStyle,
         ),
