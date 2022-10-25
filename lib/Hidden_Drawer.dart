@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ItemHiddenMenu(
           name: 'HomeScreen',
           baseStyle: TextStyle(),
-          selectedStyle: selectedStyle,
+          selectedStyle: TextStyle(),
         ),
         const HomeScreen(),
       ),
