@@ -36,7 +36,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       ),
       ScreenHiddenDrawer(
         ItemHiddenMenu(
-          name: 'SETTINGS',
+          name: 'Settings',
           baseStyle: myTextStyle,
           selectedStyle: myTextStyle,
         ),
