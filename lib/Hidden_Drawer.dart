@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _screens = [
       ScreenHiddenDrawer(
         ItemHiddenMenu(
-          name: 'Home',
+          name: 'HomeScreen',
           baseStyle: baseStyle,
           selectedStyle: selectedStyle,
         ),
