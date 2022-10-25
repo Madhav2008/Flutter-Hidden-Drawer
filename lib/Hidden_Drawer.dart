@@ -38,9 +38,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
         ItemHiddenMenu(
           name: 'SETTINGS',
           baseStyle: myTextStyle,
-          selectedStyle: const TextStyle(
-            letterSpacing: 2,
-          ),
+          selectedStyle: myTextStyle,
         ),
         const SettingsScreen(),
       ),
