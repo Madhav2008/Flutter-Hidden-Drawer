@@ -39,7 +39,8 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
         ItemHiddenMenu(
           name: 'Settings',
           baseStyle: myTextStyle,
-          selectedStyle: myTextStyle,colorLineSelected: Colors.deepPurple,
+          selectedStyle: myTextStyle,
+          colorLineSelected: Colors.deepPurple,
         ),
         const SettingsScreen(),
       ),
