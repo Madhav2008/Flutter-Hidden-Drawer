@@ -25,7 +25,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
           baseStyle: const TextStyle(
             letterSpacing: 2,
           ),
-          selectedStyle: TextStyle(
+          selectedStyle: const TextStyle(
             letterSpacing: 2,
           ),
         ),
