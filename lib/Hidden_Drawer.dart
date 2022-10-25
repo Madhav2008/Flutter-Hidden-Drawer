@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
 
     _screens = [
-      ScreenHiddenDrawer(itemMenu, screen),
+      ScreenHiddenDrawer(ItemHiddenMenu(name: name, baseStyle: baseStyle, selectedStyle: selectedStyle), screen),
     ];
   }
 
