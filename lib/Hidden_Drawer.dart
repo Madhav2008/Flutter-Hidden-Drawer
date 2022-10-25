@@ -18,7 +18,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
   final defaultTextStyle = const TextStyle(
     fontSize: 18,
     color: Colors.white,
-    letterSpacing: 5,
+    letterSpacing: 20,
   );
 
   @override
