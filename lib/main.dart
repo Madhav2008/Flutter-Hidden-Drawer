@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
       title: 'Hidden Drawer',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),debugShowCheckedModeBanner: false,
+      ),
+      debugShowCheckedModeBanner: false,
       home: HiddenDrawer(),
     );
   }
