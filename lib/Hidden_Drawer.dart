@@ -15,7 +15,7 @@ class HiddenDrawer extends StatefulWidget {
 class _HiddenDrawerState extends State<HiddenDrawer> {
   List<ScreenHiddenDrawer> _screens = [];
 
-  final myTextStyle = const TextStyle(
+  final defaultTextStyle = const TextStyle(
     fontSize: 18,
     color: Colors.white,
     letterSpacing: 5,
@@ -29,8 +29,8 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       ScreenHiddenDrawer(
         ItemHiddenMenu(
           name: 'HOME',
-          baseStyle: myTextStyle,
-          selectedStyle: myTextStyle,
+          baseStyle: defaultTextStyle,
+          selectedStyle: defaultTextStyle,
           colorLineSelected: Colors.deepPurple,
         ),
         const HomeScreen(),
@@ -38,8 +38,8 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       ScreenHiddenDrawer(
         ItemHiddenMenu(
           name: 'SETTINGS',
-          baseStyle: myTextStyle,
-          selectedStyle: myTextStyle,
+          baseStyle: defaultTextStyle,
+          selectedStyle: defaultTextStyle,
           colorLineSelected: Colors.deepPurple,
         ),
         const SettingsScreen(),
