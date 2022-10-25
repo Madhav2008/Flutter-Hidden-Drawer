@@ -14,7 +14,7 @@ class HiddenDrawer extends StatefulWidget {
 
 class _HiddenDrawerState extends State<HiddenDrawer> {
   List<ScreenHiddenDrawer> _screens = [];
-  final myTextStyle = TextStyle(
+  final myTextStyle = const TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 18,
     color: Colors.white,
