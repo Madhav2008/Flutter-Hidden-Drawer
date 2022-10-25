@@ -25,7 +25,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
           name: 'HOMESCREEN',
           baseStyle: const TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 18,color: 
+            fontSize: 18,color: Colors.white
           ),
           selectedStyle: const TextStyle(
             letterSpacing: 2,
