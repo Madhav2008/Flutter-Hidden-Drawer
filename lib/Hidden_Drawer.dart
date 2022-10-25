@@ -16,10 +16,10 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
   List<ScreenHiddenDrawer> _screens = [];
 
   final myTextStyle = const TextStyle(
-    fontWeight: FontWeight.bold,
-    fontSize: 18,
-    color: Colors.white,letterSpacing: 2
-  );
+      fontWeight: FontWeight.bold,
+      fontSize: 18,
+      color: Colors.white,
+      letterSpacing: 2);
 
   @override
   void initState() {
