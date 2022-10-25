@@ -39,7 +39,8 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
     return HiddenDrawerMenu(
       backgroundColorMenu: Colors.deepPurple,
       backgroundColorAppBar: Colors.deepPurple,
-      screens: _screens,isTitleCentered: true,
+      screens: _screens,
+      isTitleCentered: true,
       initPositionSelected: 0,
     );
   }
