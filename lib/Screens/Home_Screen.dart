@@ -14,16 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple[200],
-      appBar: AppBar(
-        title: const Text(
-          'HOMEPAGE',
-          style: TextStyle(
-            letterSpacing: 2,
-          ),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.deepPurple,
-      ),
+      
     );
   }
 }
