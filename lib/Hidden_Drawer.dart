@@ -13,11 +13,12 @@ class HiddenDrawer extends StatefulWidget {
 }
 
 class _HiddenDrawerState extends State<HiddenDrawer> {
-  List<ScreenHiddenDrawer> _screens = [];final myTextStyle = TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 18,
-            color: Colors.white,
-          ),
+  List<ScreenHiddenDrawer> _screens = [];
+  final myTextStyle = TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 18,
+    color: Colors.white,
+  );
 
   @override
   void initState() {
