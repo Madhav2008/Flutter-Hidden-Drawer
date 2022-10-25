@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
           baseStyle: baseStyle,
           selectedStyle: selectedStyle,
         ),
-        screen,
+        HomeScreen(),
       ),
     ];
   }
