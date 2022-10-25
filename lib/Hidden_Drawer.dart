@@ -14,8 +14,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return HiddenDrawerMenu(
-      screens: [],
       backgroundColorMenu: Colors.deepPurple,
+      screens: [],
     );
   }
 }
