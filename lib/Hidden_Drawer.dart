@@ -29,11 +29,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       ScreenHiddenDrawer(
         ItemHiddenMenu(
           name: 'HOMESCREEN',
-          baseStyle: const TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 18,
-            color: Colors.white,
-          ),
+          baseStyle: myTextStyle
           selectedStyle: const TextStyle(
             letterSpacing: 2,
           ),
