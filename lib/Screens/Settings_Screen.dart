@@ -14,16 +14,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple[200],
-      appBar: AppBar(
-        title: const Text(
-          'SETTINGS',
-          style: TextStyle(
-            letterSpacing: 2,
-          ),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.deepPurple,
-      ),
+      
     );
   }
 }
