@@ -28,7 +28,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
     _screens = [
       ScreenHiddenDrawer(
         ItemHiddenMenu(
-          name: 'Home',
+          name: 'HOMEPAGE',
           baseStyle: myTextStyle,
           selectedStyle: myTextStyle,
           colorLineSelected: Colors.deepPurple,
