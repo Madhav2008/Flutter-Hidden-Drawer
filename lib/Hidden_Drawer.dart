@@ -19,7 +19,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
       fontWeight: FontWeight.bold,
       fontSize: 18,
       color: Colors.white,
-      letterSpacing: 2);
+      letterSpacing: 2,);
 
   @override
   void initState() {
