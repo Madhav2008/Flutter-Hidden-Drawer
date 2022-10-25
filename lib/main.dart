@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: HiddenDrawer(),
+      home: const HiddenDrawer(),
     );
   }
 }
